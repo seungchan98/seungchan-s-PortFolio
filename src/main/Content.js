@@ -37,7 +37,7 @@ const Content = () => {
                             <span className='myName'>{blogTitle}</span>
                             <span className='hello-emoji'>👋</span>
                             <div className='MainContent-SubTitle'>
-                            Here's PortFolio Main Page!asdasdads
+                            Here's PortFolio Main Page!
                             </div>
                         </div>
                    </div>
