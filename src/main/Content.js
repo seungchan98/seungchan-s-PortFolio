@@ -1,9 +1,8 @@
-import { wait } from '@testing-library/user-event/dist/utils';
 import React, { useState, useEffect} from 'react';
 import '../css/content.css';
-import Header from './Header';
-import { Link } from 'react-router-dom';
-import Footer from './Footer';
+// import Header from './Header';
+// import { Link } from 'react-router-dom';
+// import Footer from './Footer';
 
 const Content = () => {
     const [blogTitle, setBlogTitle] = useState('');

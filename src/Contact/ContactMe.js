@@ -1,8 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Header from '../main/Header';
 import '../css/contactMe.css';
-import dltmdcks from '../image/dltmdcks.jpg';
 
 const ContactMe = () => {
     return (

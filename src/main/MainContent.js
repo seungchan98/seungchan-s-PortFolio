@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import '../css/mainContent.css'
-import AboutMe from '../AboutMePage/AboutMe';
-import styled from 'styled-components';
+// import AboutMe from '../AboutMePage/AboutMe';
+// import styled from 'styled-components';
 const MainContent = () => {
     // const toggle = document.querySelector('.toggleSwitch');
 

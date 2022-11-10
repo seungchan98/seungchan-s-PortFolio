@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import '../css/studyNotes.css';
 import Header from '../main/Header';
 import SideBarUl from './SideBarUl';
 
 const SpringNotes = () => {
     const [visible, setVisible] = useState(false);
-    const [count, setCount] = useState(11);
+    // const [count, setCount] = useState(11);
 
     const toggleSideBar = () => {
         setVisible(visible => !visible);//on,off 개념 boolean

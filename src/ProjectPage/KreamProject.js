@@ -17,12 +17,12 @@ import Kream_selectBuySizePage from '../image/Kream_selectBuySizePage.png';
 import Kream_shopPage from '../image/Kream_shopPage.png';
 
 const KreamProject = () => {
-    const [currentImgIndex, setCurrentImgIndex] = useState(0);
-    var slides = document.getElementsByClassName('.KreamProject_Image_Carousel');
+    // const [currentImgIndex, setCurrentImgIndex] = useState(0);
+    // var slides = document.getElementsByClassName('.KreamProject_Image_Carousel');
     var slide = document.getElementsByClassName('KreamProject_Carousel');
     //slide의 개수를 구할려면 slide.length로 바로사용
-    var slideCount = document.getElementsByClassName('KreamProject_Carousel').length;
-    var [currentIdx, setCurrentIdx] = useState(0);
+    // var slideCount = document.getElementsByClassName('KreamProject_Carousel').length;
+    var currentIdx = 0;
 
     const page = (num) => {
         document.querySelector('.KreamProject_Image_Carousel').style.left = -num * 490 + 'px';

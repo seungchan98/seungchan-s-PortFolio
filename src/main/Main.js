@@ -1,13 +1,13 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import Header from './Header';
-import ShowProject from '../ProjectPage/ShowProject';
-import AboutMe from '../AboutMePage/AboutMe';
-import MenuBar from '../menuBar/MenuBar';
-import Notes from '../sideBar/Notes';
+// import ShowProject from '../ProjectPage/ShowProject';
+// import AboutMe from '../AboutMePage/AboutMe';
+// import MenuBar from '../menuBar/MenuBar';
+// import Notes from '../sideBar/Notes';
 import Content from './Content';
-import AnimationCursor from '../mouseCursor/AnimationCursor';
+// import AnimationCursor from '../mouseCursor/AnimationCursor';
 import '../css/main.css';
-import MainContent from './MainContent';
+// import MainContent from './MainContent';
 
 const Main = () => {
 //     const [calc, setCalc] = useState('');

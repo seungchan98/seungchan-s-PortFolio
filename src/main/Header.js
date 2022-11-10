@@ -18,7 +18,7 @@ const Header = () => {
             <div className='HeaderSub'>
                     <div className='Header-logo'>
                         <span className='Header-Span-content'>
-                            <img className='leeseungchan' src={Seungchan}/>
+                            <img className='leeseungchan' src={Seungchan} alt='leeseungchan'/>
                             <Link to='/' className='Header-Myname'>SeungChan Lee</Link>
                         </span>
                     </div>

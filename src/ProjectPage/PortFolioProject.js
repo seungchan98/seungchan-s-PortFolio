@@ -2,12 +2,13 @@ import React, {useState} from 'react';
 import '../css/PortFolioProject.css';
 
 const PortFolioProject = () => {
-    const [currentImgIndex, setCurrentImgIndex] = useState(0);
-    var slides = document.getElementsByClassName('.PortFolioProject_Image_Carousel');
+    // const [currentImgIndex, setCurrentImgIndex] = useState(0);
+    // var slides = document.getElementsByClassName('.PortFolioProject_Image_Carousel');
     var slide = document.getElementsByClassName('PortFolioProject_Carousel');
     //slide의 개수를 구할려면 slide.length로 바로사용
-    var slideCount = document.getElementsByClassName('PortFolioProject_Carousel').length;
-    var [currentIdx, setCurrentIdx] = useState(0);
+    // var slideCount = document.getElementsByClassName('PortFolioProject_Carousel').length;
+    // var [currentIdx, setCurrentIdx] = useState(0);
+    var currentIdx = 0;
 
     const page = (num) => {
         document.querySelector('.PortFolioProject_Image_Carousel').style.left = -num * 490 + 'px';

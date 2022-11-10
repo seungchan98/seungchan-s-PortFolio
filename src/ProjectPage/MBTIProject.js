@@ -13,12 +13,13 @@ import MBTI_TestPage from '../image/MBTI_TestPage.jpeg';
 import MBTI_UpdateUser from '../image/MBTI_UpdateUser.jpeg';
 
 const MBTIProject = () => {
-    const [currentImgIndex, setCurrentImgIndex] = useState(0);
-    var slides = document.getElementsByClassName('.MBTIProject_Image_Carousel');
+    // const [currentImgIndex, setCurrentImgIndex] = useState(0);
+    // var slides = document.getElementsByClassName('.MBTIProject_Image_Carousel');
     var slide = document.getElementsByClassName('MBTIProject_Carousel');
     //slide의 개수를 구할려면 slide.length로 바로사용
-    var slideCount = document.getElementsByClassName('MBTIProject_Carousel').length;
-    var [currentIdx, setCurrentIdx] = useState(0);
+    // var slideCount = document.getElementsByClassName('MBTIProject_Carousel').length;
+    // var [currentIdx, setCurrentIdx] = useState(0);
+    var currentIdx = 0;
 
     const page = (num) => {
         document.querySelector('.MBTIProject_Image_Carousel').style.left = -num * 490 + 'px';

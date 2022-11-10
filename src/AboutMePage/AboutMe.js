@@ -1,9 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import '../css/aboutMe.css';
-import goArrow from '../image/goArrow.png';
-import MenuBar from '../menuBar/MenuBar';
 import Header from '../main/Header';
-import { click } from '@testing-library/user-event/dist/click';
 const AboutMe = () => {
     
     return (

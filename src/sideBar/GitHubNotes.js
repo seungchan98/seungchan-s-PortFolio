@@ -5,7 +5,7 @@ import SideBarUl from './SideBarUl';
 
 const GitHubNotes = () => {
     const [visible, setVisible] = useState(false);
-    const [count, setCount] = useState(11);
+    // const [count, setCount] = useState(11);
 
     const toggleSideBar = () => {
         setVisible(visible => !visible);//on,off 개념 boolean

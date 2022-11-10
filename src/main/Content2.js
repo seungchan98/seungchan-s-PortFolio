@@ -8,7 +8,7 @@ const Content2 = () => {
         <div className='profileMainPage'>
             <div className='profile-card'>
                 <figure>
-                    <img src={dltmdcks} className='profile-card-Image'/>
+                    <img src={dltmdcks} className='profile-card-Image' alt='profile-card-Image'/>
                 </figure>
 
                 <div className='profile-card-desc'>
