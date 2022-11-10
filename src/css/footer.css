@@ -47,7 +47,7 @@
     align-items: center;
     flex-wrap: wrap;
 }
-.profile-card-social a {
+.profile-card-social button {
     display: inline-flex;
     width: 55px;
     height: 55px;
@@ -73,7 +73,7 @@
     }
 }   */
  
-.profile-card-social a:hover {
+.profile-card-social button:hover {
     transform: scale(1.0) translateY(-5px);
 }
 .profile-card-social .github {

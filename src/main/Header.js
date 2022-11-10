@@ -39,8 +39,8 @@ const Header = () => {
                         <NavLink to='/AboutMe' className='Header-list'>
                             About Me
                         </NavLink>
-{/* 
-                        <NavLink to='/ContactMe' className='Header-list'>
+
+                        {/* <NavLink to='www.naver.com' className='Header-list'>
                             Contact Me
                         </NavLink> */}
                     </div>
