@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import '../css/PortFolioProject.css';
-
+import Portfolio_MainPage from '../image/Portfolio_MainPage.png';
 const PortFolioProject = () => {
     // const [currentImgIndex, setCurrentImgIndex] = useState(0);
     // var slides = document.getElementsByClassName('.PortFolioProject_Image_Carousel');
@@ -96,7 +96,7 @@ const PortFolioProject = () => {
 function Kream1 () {
     return (
         <div className='PortFolioProject_Carousel'>
-            <img className='PortFolioProjectImage-Show' alt='Kream_mainPage'/>
+            <img className='PortFolioProjectImage-Show' src={Portfolio_MainPage} alt='Kream_mainPage'/>
         </div>
     )
 }
