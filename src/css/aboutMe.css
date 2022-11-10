@@ -1,0 +1,84 @@
+/* .aboutMe{
+    /*width: 100%;
+    height: 100%;
+    margin: 0;
+    position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    background-color: black;
+    overflow-y: auto;세로화면을 벗어나면 자동으로 scroll을 생성한다*/
+    /* margin-top: 60px; */
+.aboutMePage{
+    background-color:black;
+    /* margin-top: 80px; */
+    /* transition: all 0.5s ease-in-out 0s;
+    /* margin-top: 60px;  
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%; */
+}
+.aboutMeContent{
+    padding: 100px 30px 30px 30px;
+    transition: all 0.5s ease-in-out 0s;
+    box-sizing: border-box;
+    /* transition: all 0.5s;
+width:100%;
+height: 100%; */
+}
+/* .brightPage{
+    background: white;
+}
+.darkImg{
+    background-image:  url('../image/moon-icon.png');
+}  */
+
+.sectionDiv{
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    flex-flow: row wrap;
+}
+.myInformationH2 {
+    color: white;
+    border-bottom: 1px solid rgb(56, 56, 56);
+    padding-bottom: 0.5em;
+} 
+/* .h2Ch{
+    color: black;
+} */
+.myInformation{
+    width: calc(50% - 1em);
+    margin-bottom: 2ex;
+}
+.aboutMeUlTag{
+    background: rgb(37, 37, 37);
+    padding: 1em;
+    list-style: none;
+}
+.aboutMeUlTagSub{
+    list-style: none;
+}
+.aboutMeSpanTag{
+    color: rgb(153, 204, 255);
+}
+.aboutMeSpanTag::before{
+    content: "<";
+    color: rgb(128, 128, 128);
+}
+.aboutMeSpanTag::after{
+    content:">";
+    color: rgb(128, 128, 128);
+}
+.aboutMeSpanTag:last-of-type::before{
+    content:"</";
+    color: rgb(128, 128, 128);
+}
+.aboutMeLiTage{
+    color:#fff;
+    /* margin-bottom: 0.3em; */
+}
+.aboutMeLiTagSub{
+    margin-bottom: 0.5em;
+}

@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.showProjectStart{
+    background-color:black;
+    /* margin-top: 80px; */
+}
+.Project_Page{
+    /* -webkit-box-sizing: border-box; */
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 71.25rem;
+    padding: 6rem 2rem;
+    margin: 0 auto;
+}
+.Project_Title{
+    display: table;
+    position: relative;
+    margin: 0 auto 3rem;
+}
+.Project_SubTitle{
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #ffffff;
+    border-bottom: 1px solid white;
+}
+.Project_SubTitle:hover {
+    transform: translateY(-5px);
+    transition: all 0.5 ease;
+}
+.Project_Content{
+    box-sizing: border-box;
+}
+.Proejct_SubContent{
+    padding: 3rem;
+    margin: 0 auto 3rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
+    -webkit-box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
+}
+.Project_ContentTitle{
+    padding-bottom: 0.5rem;
+    font-family: Black Han Sans,sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: #222;
+    text-align: center;
+}
+.Project_SubContentTitle{
+    margin-bottom: 2rem;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #6c757d;
+    text-align: center;
+    opacity: .8;
+}
+.Proejct_Show{
+    display: flex;
+    /* display: -ms-flexbox;
+    -webkit-flex-flow: row wrap;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal; */
+    flex-flow: row wrap;
+    /* -webkit-justify-content: center; */
+    /* -moz-box-pack: center; */
+    justify-content: center;
+    -webkit-box-pack: center;
+}
+.Proejct_Image{
+    overflow: hidden;
+    position: relative;
+    width: 50%;
+    margin-right: 3rem;
+}
+.Project_Image_Carousel{
+    /* left: -490px; */
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+    width: 100%;
+    transition: all 0.4s ease-in-out
+}
+.pageCount {
+    height: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+.pageCount_Sub{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #444;
+}
+
+.Project_Carousel{
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    cursor: pointer;
+    /* margin-right: 10px; */
+    height: 60vh;
+    overflow: auto;
+    
+}
+.ProjectImage-Show{
+    width:97%;
+    margin:0 auto;
+    display:block;
+    /* vertical-align: middle; */
+    box-sizing: border-box;
+}
+.Project_Explain{
+    width: calc(50% - 3rem);
+}
+.Project_descriptions{
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.Project_Inner_descriptions{
+    margin-bottom: 1rem;
+}
+.Project_Label{
+    display: inline-block;
+    vertical-align: top;
+    width: 8.4rem;
+    font-weight: 900;
+    font-size: 1rem;
+}
+.Project_Value{
+    display: inline-block;
+    vertical-align: bottom;
+    width: -moz-calc(100% - 8.4rem);
+    width: calc(100% - 8.4rem);
+    font-weight: 400;
+    font-size: 1rem;
+}
+ .icon-left{
+    /* left: 0px; */
+    position: absolute;
+      top: 150px;
+      width: 50px;
+      height: 50px;
+      padding-top: 5px;
+      font-size: 40px;
+      font-weight: 100;
+      vertical-align: middle;
+      background-color: #FFFFFF;
+      border-radius: 50%;
+}
+.icon-right{
+    right: -490px;
+    position: absolute;
+      top: 150px;
+      width: 50px;
+      height: 50px;
+      padding-top: 5px;
+      font-size: 40px;
+      font-weight: 100;
+      vertical-align: middle;
+      background-color: #FFFFFF;
+      border-radius: 50%;
+      float: right;
+}
+.icon-left:hover, .icon-right:hover {
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #004EA2;
+} 
+
+

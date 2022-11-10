@@ -1,0 +1,171 @@
+.mainContent{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(30, 30, 30);
+    width: 100%;
+    position: absolute;
+}
+.mainContentt {
+  height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    width: 100%;
+    position: absolute;
+}
+.mainContentBtn{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    transition: all .3s ease;
+}
+.mainContentBtn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 30px;
+    background: rgb(174, 213, 252);
+    width: 56px;
+    height: 56px;
+    transition: all .3s ease;
+}
+
+.mainContentBtn span{
+    position: relative;
+    line-height: 1;
+    font-weight: 00;
+    letter-spacing: .25rem;
+    text-transform: uppercase;
+}
+.mainContentBtn svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: white;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all .3s ease;
+}
+.mainContentBtn:hover{
+    color: black;
+}
+.mainContentBtn:hover::before {
+    width: 100%;
+    background: rgb(153, 204, 255);
+}
+.mainContentBtn:hover svg {
+    stroke: black;
+    transform: translateX(0);
+}
+.mainContentBtn:active {
+    transform: scale(.95);
+}
+/* .toggleSwitch {
+    width: 6rem;
+    height: 3rem;
+    display: block;
+    position: relative;
+    border-radius: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 1rem 3px rgba(0 0 0 / 15%);
+    cursor: pointer;
+  }
+  
+  .toggleSwitch .toggleButton {
+    width: 2.6rem;
+    height: 2.6rem;
+    position: absolute;
+    top: 50%;
+    left: .2rem;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: #f03d3d;
+  }
+  
+  /* 체크박스가 체크되면 변경 이벤트 */
+  /* .toggleSwitch.active{
+    background: #f03d3d;
+  }
+  .toggleSwitch:checked ~ .mainContent{
+    background-color: antiquewhite;
+  }
+  
+  .toggleSwitch.active .toggleButton {
+    left: calc(100% - 2.8rem);
+    background: #fff;
+  }
+  
+  .toggleSwitch, .toggleButton {
+    transition: all 0.2s ease-in;
+  }
+  .background {
+    background-color: bisque;
+  } */ 
+.toggleSwitch {
+    width: 3.5rem;
+    margin: 2rem;
+    height: 2rem;
+    display: block;
+    position: relative;
+    border-radius: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 1rem 3px rgba(0 0 0 / 15%);
+    cursor: pointer;
+  }
+  
+  .toggleSwitch .toggleButton {
+    width: 1.6rem;
+    height: 1.6rem;
+    position: absolute;
+    top: 50%;
+    left: .2rem;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: #f03d3d;
+  }
+  
+  /* 체크박스가 체크되면 변경 이벤트 */
+   #toggle:checked ~ .toggleSwitch {
+    background: #f03d3d;
+  }
+  
+  #toggle:checked ~ .toggleSwitch .toggleButton {
+    left: calc(100% - 1.8rem);
+    background: #fff;
+  }
+  
+  .toggleSwitch, .toggleButton {
+    transition: all 0.2s ease-in;
+  } 
+  /* checked 부분을 active란 클래스가 포함되어있는지 여부로 바꾸기 */
+.toggleSwitch.active {
+    background: #f03d3d;
+  }
+  
+  .toggleSwitch.active .toggleButton {
+    left: calc(100% - 2.8rem);
+    background: #fff;
+  } 
+.black{
+  background: black;
+}
+.white{
+  background: white;
+}

@@ -1,0 +1,82 @@
+.Footer{
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    /* font-size: var(--chakra-fontSizes-lg);
+    margin-top: var(--chakra-space-24);
+    padding-top: var(--chakra-space-8);
+    border-top: var(--chakra-borders-1px);
+    padding-bottom: var(--chakra-space-8); */
+    /* padding: 25px 0px 10px25px; */
+    /* color: white; */
+    padding: 25px;
+    border-top: 2px solid white;
+    margin-top: 50px;
+    color: white;
+}
+.Footer_ex {
+    font-size: 20px;
+}
+.Footer_Skill {
+    display: inline-block;
+    /* font-family: var(--chakra-fonts-mono); */
+    /* font-size: var(--chakra-fontSizes-sm); */
+    /* -webkit-padding-start: 0.3em;
+    padding-inline-start: 0.3em;
+    -webkit-padding-end: 0.3em;
+    padding-inline-end: 0.3em; */
+    /* border-radius: var(--chakra-radii-sm); */
+    /* background-color: rgba(226, 232, 240, 0.16); */
+    /* color: var(--chakra-colors-gray-200); */
+    /* padding-top: var(--chakra-space-1); */
+    /* padding-bottom: var(--chakra-space-0-5); */
+    padding: 3px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-family: SFMono-Regulat, Menlo, Monaco, Consolas, monospace;
+    font-size: 17px
+}
+.profile-card-social{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.profile-card-social a {
+    display: inline-flex;
+    width: 55px;
+    height: 55px;
+    /* margin: 15px; */
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    flex-shrink: 0;
+    transition: all .2s;
+}
+/* @media screen and (max-width: 768px) {
+.profile-card-social a {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    }
+} */
+/* @media screen and (min-width: 768px) {
+.profile-card-social:hover{
+    transform: scale(1.2) translateY(-5px);
+    }
+}   */
+ 
+.profile-card-social a:hover {
+    transform: scale(1.0) translateY(-5px);
+}
+.profile-card-social .github {
+    background: #004EA2;
+    box-shadow: 0 4px 30px rgb(1, 66, 135);
+}
