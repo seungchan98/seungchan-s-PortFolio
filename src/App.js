@@ -15,6 +15,7 @@ import SideBarUl from './sideBar/SideBarUl';
 import Dropdown from './menuBar/Dropdown';
 import ContactMe from './Contact/ContactMe';
 import GitHubNotes from './sideBar/GitHubNotes';
+import ReactNotes from './sideBar/ReactNotes';
 import JavaNotes from './sideBar/JavaNotes';
 import MultipleSlider from './Slider/MultipleSlider';
 import Footer from './main/Footer';
@@ -41,6 +42,7 @@ const App = () => {
         <Route exact path='/SpringNotes' element={<SpringNotes/>}/>
         <Route exact path='/GitHubNotes' element={<GitHubNotes/>}/>
         <Route exact path='/JavaNotes' element={<JavaNotes/>}/>
+        <Route exact path='/ReactNotes' element={<ReactNotes/>}/>
         <Route exact path='/SideBarUl' element={<SideBarUl/>}/>
         <Route exact path='/Dropdown' element={<Dropdown/>}/>
         <Route exact path='/ContactMe' element={<ContactMe/>}/>

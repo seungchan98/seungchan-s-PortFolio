@@ -64,7 +64,7 @@ const Notes = () => {
                                     <p className='NotesContents_text'>Eclipse</p>
                                 </div>
                             </Link>
-                            <Link className='NotesContents'>
+                            <Link to='/ReactNotes' className='NotesContents'>
                                 <div className='NotesContents_sub'>
                                     <div className='NotesContents_front2'>
                                         <span className='NotesContents_frontIn'>Front-end</span>

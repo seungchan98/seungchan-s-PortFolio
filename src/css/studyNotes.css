@@ -23,7 +23,7 @@
 }
 .StudyNotesPageSideBarHide{
   position: fixed;
-  top: 60px;
+  top: 80px;
   bottom: 0px;
   left: 0px;
   background: rgb(37, 37, 37);
@@ -142,3 +142,4 @@ button{
     border-top: 1px solid rgb(56, 56, 56);
     padding: 1em 0px;
 }
+

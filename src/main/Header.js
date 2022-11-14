@@ -9,8 +9,9 @@ const Header = () => {
         setScrollPosition(window.scrollY || document.documentElement.scrollTop);
     }
     useEffect(() => {
+        console.log(scrollPosition);
         window.addEventListener('scroll', updateScroll);
-    })
+    }, [])
 
 
     return (

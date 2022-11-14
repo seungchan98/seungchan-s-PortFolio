@@ -22,7 +22,7 @@ const SideBarUl = () => {
                 <span className='sideBarContent_inner1'>Java</span>
                 Eclipse
             </Link>
-            <Link className='sideBarContentLink'>
+            <Link to='/ReactNotes' className='sideBarContentLink'>
                 <span className='sideBarContent_inner2'>Front-end</span>
                 React
             </Link>
