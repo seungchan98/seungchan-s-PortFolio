@@ -22,7 +22,7 @@ const Content = () => {
   
           return result;
         });
-      }, 200);
+      }, 100);
   
       return () => {
         clearInterval(typingInterval);
@@ -30,17 +30,27 @@ const Content = () => {
     });
     
     return (
-                <div className='MainContent'>
-                   <div className='MainContent_Sub'>
-                        <div className='MainContent-Title'>
-                            <span className='myName'>{blogTitle}</span>
-                            <span className='hello-emoji'>👋</span>
-                            <div className='MainContent-SubTitle'>
-                            Here's PortFolio Main Page!
-                            </div>
-                        </div>
-                   </div>
-                </div>
+      <div className='MainContent'>
+          <div className='MainContent_Sub'>
+              <div className='MainContent-Title'>
+                  <span className='myName'>{blogTitle}</span>
+                  <span className='hello-emoji'>👋</span>
+                  <div className='MainContent-SubTitle'>
+                    <span>H</span>
+                    <span>e</span>
+                    <span>r</span>
+                    <span>e</span>
+                    <span>'</span>
+                    <span>s</span>
+                    <span>M</span>
+                    <span>a</span>
+                    <span>i</span>
+                    <span>n</span>
+                  {/* Here's PortFolio Main Page! */}
+                  </div>
+              </div>
+          </div>
+      </div>
     );
 };
 
