@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import '../css/header.css';
 import { Link, NavLink } from 'react-router-dom';
 import Seungchan from '../image/dltmdcks.jpg';
-
+import sun from '../image/sun.png';
+import moon from '../image/moon.png';
 const Header = () => {
     const [scrollPosition, setScrollPosition] = useState(0);
     const updateScroll = () => {
@@ -13,18 +14,28 @@ const Header = () => {
         window.addEventListener('scroll', updateScroll);
     }, [])
 
-
     return (
         <div className={scrollPosition < 50 ? 'Header' : 'Header_Change'}> {/*스크롤이 숫자px 이상일때 변환되도록*/}
             <div className='HeaderSub'>
                     <div className='Header-logo'>
                         <span className='Header-Span-content'>
                             <img className='leeseungchan' src={Seungchan} alt='leeseungchan'/>
-                            <Link to='/' className='Header-Myname'>SeungChan Lee</Link>
+                            <Link to='/' className='Header-Myname'>
+                                <span>S</span>
+                                <span>e</span>
+                                <span>u</span>
+                                <span>n</span>
+                                <span>g</span>&nbsp;
+                                <span>C</span>
+                                <span>h</span>
+                                <span>a</span>
+                                <span>n</span>
+                            </Link>
                         </span>
                     </div>
 
                     <div className='Header-menu'>
+             
                         <NavLink to='/' className='Header-list' end>
                             {/* end를 넣지 않으면 '/'이게 다 들어가있으므로 활성화가 되기때문에 end를 붙히면 안된다 */}
                             Home
@@ -40,10 +51,6 @@ const Header = () => {
                         <NavLink to='/AboutMe' className='Header-list'>
                             About Me
                         </NavLink>
-
-                        {/* <NavLink to='www.naver.com' className='Header-list'>
-                            Contact Me
-                        </NavLink> */}
                     </div>
             </div>
         </div>

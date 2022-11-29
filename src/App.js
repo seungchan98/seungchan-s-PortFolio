@@ -22,6 +22,7 @@ import Footer from './main/Footer';
 import MBTIProject from './ProjectPage/MBTIProject';
 import KreamProject from './ProjectPage/KreamProject';
 import PortFolioProject from './ProjectPage/PortFolioProject';
+import UseReducerModal from './sideBar/UseReducerModal';
 const App = () => {
   return (
     <BrowserRouter>
@@ -51,6 +52,7 @@ const App = () => {
         <Route exact path='/MBTIProject' element={<MBTIProject/>}/>
         <Route exact path='/KreamProject' element={<KreamProject/>}/>
         <Route exact path='/PortFolioProject' element={<PortFolioProject/>}/>
+        <Route exact path='/UseReducerModal' element={<UseReducerModal/>}/>
       </Routes>
     </BrowserRouter>
   );

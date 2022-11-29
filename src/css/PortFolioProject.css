@@ -82,7 +82,16 @@
     /* margin-right: 10px; */
     height: 60vh;
     overflow: auto;
-    
+}
+.PortFolioProject_Carousel::-webkit-scrollbar {
+    width: 5px;
+}
+.PortFolioProject_Carousel::-webkit-scrollbar-thumb {
+    background-color: rgb(50, 50, 50);
+    border-radius: 15px;
+}
+.PortFolioProject_Carousel::-webkit-scrollbar-track {
+    background: #aaa;
 }
 .PortFolioProjectImage-Show{
     width:97%;
@@ -139,4 +148,11 @@
 .btn2:hover {
     transform: translateY(-5px);
     transition: all .15s ease;
+}
+.git_PF {
+    color:#004EA2;
+}
+.git_PF:hover{
+    color:#004EA2;
+    text-decoration: underline;
 }

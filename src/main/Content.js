@@ -36,17 +36,7 @@ const Content = () => {
                   <span className='myName'>{blogTitle}</span>
                   <span className='hello-emoji'>👋</span>
                   <div className='MainContent-SubTitle'>
-                    <span>H</span>
-                    <span>e</span>
-                    <span>r</span>
-                    <span>e</span>
-                    <span>'</span>
-                    <span>s</span>
-                    <span>M</span>
-                    <span>a</span>
-                    <span>i</span>
-                    <span>n</span>
-                  {/* Here's PortFolio Main Page! */}
+                  Here's PortFolio Main Page!
                   </div>
               </div>
           </div>

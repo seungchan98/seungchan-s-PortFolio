@@ -3,6 +3,7 @@ import Header from '../main/Header';
 import MBTIProject from './MBTIProject';
 import KreamProject from './KreamProject';
 import PortFolioProject from './PortFolioProject';
+import IphoneTodoList from './IphoneTodoList';
 import '../css/showProject.css';
 
 const ShowProject = () => {
@@ -18,6 +19,7 @@ const ShowProject = () => {
                 <MBTIProject/>
                 <KreamProject/>
                 <PortFolioProject/>
+                <IphoneTodoList/>
             </div>    
         </div>
         </div>

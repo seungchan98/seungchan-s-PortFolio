@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-.MBTIProject_Content{
+.IphoneTodoList_Content{
     box-sizing: border-box;
 }
-.MBTIProject_SubContent{
+.IphoneTodoList_SubContent{
     padding: 3rem;
     margin: 0 auto 3rem;
     border-radius: 1rem;
-    background-color: #fff;
+    background-color: white;
     box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
     -webkit-box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
 }
-.MBTIProject_ContentTitle{
+.IphoneTodoList_ContentTitle{
     padding-bottom: 0.5rem;
     font-family: Black Han Sans,sans-serif;
     font-weight: 400;
@@ -20,7 +20,7 @@
     text-align: center;
     font-family: 'Anton', sans-serif;
 }
-.MBTIProject_SubContentTitle{
+.IphoneTodoList_SubContentTitle{
     margin-bottom: 2rem;
     font-weight: 400;
     font-size: 1rem;
@@ -28,7 +28,7 @@
     text-align: center;
     opacity: .8;
 }
-.MBTIProject_Show{
+.IphoneTodoList_Show{
     display: flex;
     /* display: -ms-flexbox;
     -webkit-flex-flow: row wrap;
@@ -40,13 +40,13 @@
     justify-content: center;
     -webkit-box-pack: center;
 }
-.MBTIProject_Image{
+.IphoneTodoList_Image{
     overflow: hidden;
     position: relative;
     width: 50%;
     margin-right: 3rem;
 }
-.MBTIProject_Image_Carousel{
+.IphoneTodoList_Image_Carousel{
     /* left: -490px; */
     display: flex;
     flex-flow: row nowrap;
@@ -54,27 +54,27 @@
     width: 100%;
     transition: all 0.4s ease-in-out
 }
-.MBTIPageCount {
+.IphoneTodoListPageCount {
     height: 2rem;
     margin-top: 1.5rem;
     text-align: center;
 }
-.MBTIPageCount_Sub{
+.IphoneTodoListPageCount_Sub{
     display: inline-block;
     font-weight: 400;
     font-size: 1rem;
     color: #444;
 }
-.MBTIPageCount_Sub::before {
+.IphoneTodoListPageCount_Sub::before{
     content:'←';
     font-weight: bold;
 }
-.MBTIPageCount_Sub::after {
+.IphoneTodoListPageCount_Sub:after {
     content: '→';
     font-weight: bold;
 }
 
-.MBTIProject_Carousel{
+.IphoneTodoList_Carousel{
     display: block;
     width: 100%;
     min-width: 100%;
@@ -83,49 +83,49 @@
     height: 60vh;
     overflow: auto;
 }
-.MBTIProject_Carousel::-webkit-scrollbar{
+.IphoneTodoList_Carousel::-webkit-scrollbar {
     width: 5px;
 }
-.MBTIProject_Carousel::-webkit-scrollbar-thumb {
+.IphoneTodoList_Carousel::-webkit-scrollbar-thumb {
     background-color: rgb(50, 50, 50);
     border-radius: 15px;
 }
-.MBTIProject_Carousel::-webkit-scrollbar-track {
+.IphoneTodoList_Carousel::-webkit-scrollbar-track {
     background: #aaa;
 }
-.MBTIProjectImage-Show{
+.IphoneTodoListImage-Show{
     width:97%;
     margin:0 auto;
     display:block;
     /* vertical-align: middle; */
     box-sizing: border-box;
 }
-.MBTIProject_Explain{
+.IphoneTodoList_Explain{
     width: calc(50% - 3rem);
 }
-.MBTIProject_descriptions{
+.IphoneTodoList_descriptions{
     padding-bottom: 1rem;
     margin-bottom: 1rem;
     border-bottom: 1px solid #ccc;
     font-weight: 400;
     font-size: 1rem;
 }
-.MBTIProject_Inner_descriptions{
+.IphoneTodoList_Inner_descriptions{
     margin-bottom: 1rem;
 }
-.MBTIProject_Label{
+.IphoneTodoList_Label{
     display: inline-block;
     vertical-align: top;
     width: 8.4rem;
     font-weight: 900;
     font-size: 1rem;
 }
-.MBTIProject_Label::before{
+.IphoneTodoList_Label::before{
     content: '✓';
     display: inline;
     padding-right: 0.5rem;
 }
-.MBTIProject_Value{
+.IphoneTodoList_Value{
     display: inline-block;
     vertical-align: bottom;
     width: -moz-calc(100% - 8.4rem);
@@ -149,11 +149,10 @@
     transform: translateY(-5px);
     transition: all .15s ease;
 }
-.linkGo {
+.linkGo{
     color: #004EA2;
 }
 .linkGo:hover {
     color: #004EA2;
     text-decoration: underline;
 }
-

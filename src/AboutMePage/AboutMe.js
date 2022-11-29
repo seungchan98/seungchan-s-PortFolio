@@ -91,6 +91,17 @@ function Education() {
 function Ability() {
     return(
         <ul className='aboutMeUlTag'>
+             <li className='aboutMeLiTagSub'>
+                <span className='aboutMeSpanTag'>Education</span>
+                    <ul className='aboutMeUlTagSub'>
+                        <li className='aboutMeLiTage'>
+                            <span className='aboutMeSpanTag'>2022</span>
+                            비트캠프 강남센터 / 2022.04 ~ 2022.08
+                            <span className='aboutMeSpanTag'>2022</span>
+                        </li>
+                    </ul>
+                <span className='aboutMeSpanTag'>Education</span>
+            </li>
             <li className='aboutMeLiTagSub'>
                 <span className='aboutMeSpanTag'>License</span>
                     <ul className='aboutMeUlTagSub'>

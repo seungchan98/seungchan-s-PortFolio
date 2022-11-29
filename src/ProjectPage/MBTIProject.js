@@ -20,6 +20,7 @@ const MBTIProject = () => {
     // var slideCount = document.getElementsByClassName('MBTIProject_Carousel').length;
     // var [currentIdx, setCurrentIdx] = useState(0);
     var currentIdx = 0;
+    const git_MBTI = 'https://github.com/BitProject220/mbti';
 
     const page = (num) => {
         document.querySelector('.MBTIProject_Image_Carousel').style.left = -num * 490 + 'px';
@@ -42,6 +43,7 @@ const MBTIProject = () => {
             page(slide.length -1);
         }
     }
+    
     
     //addEventListener을 사용하려면 onClick을 사용하면 안된다 그냥 그 클래스명에다가 지정해주는거기 때문이다
     return (
@@ -128,6 +130,22 @@ const MBTIProject = () => {
                                     </div>
                                     <div className='MBTIProject_Value'>
                                         MySQL
+                                    </div>
+                                </div>
+                                <div className='MBTIProject_Inner_descriptions'>
+                                    <div className='MBTIProject_Label'>
+                                     배포 여부
+                                    </div>
+                                    <div className='MBTIProject_Value'>
+                                        X
+                                    </div>
+                                </div>
+                                <div className='MBTIProject_Inner_descriptions'>
+                                    <div className='MBTIProject_Label'>
+                                     Git
+                                    </div>
+                                    <div className='MBTIProject_Value'>
+                                        <button className='linkGo' onClick={()=>{window.open(git_MBTI)}}>GitHub</button>
                                     </div>
                                 </div>
                             </div>

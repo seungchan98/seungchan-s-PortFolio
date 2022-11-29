@@ -1,6 +1,12 @@
 import React, {useState} from 'react';
 import '../css/PortFolioProject.css';
 import Portfolio_MainPage from '../image/Portfolio_MainPage.png';
+import Portfolio_aboutMe from '../image/Portfolio_aboutMe.png';
+import Portfolio_notesClose from '../image/Portfolio_notesClose.png';
+import Portfolio_notesCloseSub from '../image/Portfolio_notesCloseSub.png';
+import Portfolio_notesPage from '../image/Portfolio_notesPage.png';
+import Portfolio_notesSub from '../image/Portfolio_notesSub.png';
+import Portfolio_projectPage from '../image/Portfolio_projectPage.png';
 const PortFolioProject = () => {
     // const [currentImgIndex, setCurrentImgIndex] = useState(0);
     // var slides = document.getElementsByClassName('.PortFolioProject_Image_Carousel');
@@ -9,6 +15,7 @@ const PortFolioProject = () => {
     // var slideCount = document.getElementsByClassName('PortFolioProject_Carousel').length;
     // var [currentIdx, setCurrentIdx] = useState(0);
     var currentIdx = 0;
+    const git_PortFolio = 'https://github.com/seungchan98/seungchan-s-PortFolio';
 
     const page = (num) => {
         document.querySelector('.PortFolioProject_Image_Carousel').style.left = -num * 490 + 'px';
@@ -40,11 +47,13 @@ const PortFolioProject = () => {
                         <div className='PortFolioProject_Show'>
                             <div className='PortFolioProject_Image'>
                                 <div className='PortFolioProject_Image_Carousel'>{/*여기다가 transform */}
-                                    <Kream1></Kream1>
-                                    <Kream2></Kream2>
-                                    <Kream3></Kream3>
-                                    <Kream4></Kream4>
-                                    <Kream5></Kream5>
+                                    <PortFolio1/>
+                                    <PortFolio2/>
+                                    <PortFolio3/>
+                                    <PortFolio4/>
+                                    <PortFolio5/>
+                                    <PortFolio6/>
+                                    <PortFolio7/>
                                 </div>
                                 <nav className='PortFolioPageCount'>
                                     <div className='PortFolioPageCount_Sub'>
@@ -86,6 +95,30 @@ const PortFolioProject = () => {
                                         React, HTML, CSS, JavaScript, Node.js
                                     </div>
                                 </div>
+                                <div className='PortFolioProject_Inner_descriptions'>
+                                    <div className='PortFolioProject_Label'>
+                                        배포 여부
+                                    </div>
+                                    <div className='PortFolioProject_Value'>
+                                        O
+                                    </div>
+                                </div>
+                                <div className='PortFolioProject_Inner_descriptions'>
+                                    <div className='PortFolioProject_Label'>
+                                        배포 링크 : 
+                                    </div>
+                                    <div className='PortFolioProject_Value'>
+                                        O
+                                    </div>
+                                </div>
+                                <div className='PortFolioProject_Inner_descriptions'>
+                                    <div className='PortFolioProject_Label'>
+                                        Git
+                                    </div>
+                                    <div className='PortFolioProject_Value'>
+                                    <button className='git_PF' onClick={() => {window.open(git_PortFolio)}}>GitHub</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -93,38 +126,52 @@ const PortFolioProject = () => {
                 </div> 
     );
 };
-function Kream1 () {
+function PortFolio1 () {
     return (
         <div className='PortFolioProject_Carousel'>
-            <img className='PortFolioProjectImage-Show' src={Portfolio_MainPage} alt='Kream_mainPage'/>
+            <img className='PortFolioProjectImage-Show' src={Portfolio_MainPage} alt='Portfolio_MainPage'/>
         </div>
     )
 }
-function Kream2 () {
+function PortFolio2 () {
     return (
         <div className='PortFolioProject_Carousel'>
-            <img className='PortFolioProjectImage-Show' alt='Kream_shopDetailPage'/>
+            <img className='PortFolioProjectImage-Show' src={Portfolio_projectPage} alt='Portfolio_projectPage'/>
         </div>
     )
 }
-function Kream3 () {
+function PortFolio3 () {
     return (
         <div className='PortFolioProject_Carousel'>
-            <img className='PortFolioProjectImage-Show' alt='Kream_buyFinPage'/>
+            <img className='PortFolioProjectImage-Show' src={Portfolio_notesPage} alt='Portfolio_notesPage'/>
         </div>
     )
 }
-function Kream4 () {
+function PortFolio4 () {
     return (
         <div className='PortFolioProject_Carousel'>
-            <img className='PortFolioProjectImage-Show' alt='Kream_buyPayPage'/>
+            <img className='PortFolioProjectImage-Show' src={Portfolio_notesClose} alt='Portfolio_notesClose'/>
         </div>
     )
 }
-function Kream5 () {
+function PortFolio5 () {
     return (
         <div className='PortFolioProject_Carousel'>
-            <img className='PortFolioProjectImage-Show' alt='Kream_csPage1'/>
+            <img className='PortFolioProjectImage-Show' src={Portfolio_notesSub} alt='Portfolio_notesSub'/>
+        </div>
+    )
+}
+function PortFolio6 () {
+    return (
+        <div className='PortFolioProject_Carousel'>
+            <img className='PortFolioProjectImage-Show' src={Portfolio_notesCloseSub} alt='Portfolio_notesCloseSub'/>
+        </div>
+    )
+}
+function PortFolio7 () {
+    return (
+        <div className='PortFolioProject_Carousel'>
+            <img className='PortFolioProjectImage-Show' src={Portfolio_aboutMe} alt='Portfolio_aboutMe'/>
         </div>
     )
 }

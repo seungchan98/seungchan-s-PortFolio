@@ -1,6 +1,7 @@
 import React, {useState, useReducer} from 'react';
 import '../css/multipleSlider.css';
-
+import sun from '../image/sun.png';
+import moon from '../image/moon.png';
 const reducer = (state, action) => {
     switch(action.type) {
         case 'decrement':
@@ -20,6 +21,10 @@ const MultipleSlider = () => {
         setNum(num - 1);
     }
     const [number, dispatch] = useReducer(reducer, 0);
+    const DarkMode = () => {
+        const edit = document.querySelector('.darkMode');
+        edit.classList.toggle('dark');
+    }
 
     return (
         <>
@@ -47,9 +52,19 @@ const MultipleSlider = () => {
             reducer : state를 업데이트 하는 역활
             dispatch : state 업데이트를 위한 요구
             action : 요구의 내용
-
-
-
+        </div>
+        <div className='darkMode'>
+            <div className='container'>
+                
+                <input type='checkbox' onClick={DarkMode}/>
+            </div>
+            <div className='day'>
+                <img src={sun} alt='sun'/>
+            </div>
+            <div className='night'>
+                <img src={moon} alt='moon'/>
+            </div>
+            
         </div>
         </>
     );

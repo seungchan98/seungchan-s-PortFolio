@@ -83,6 +83,16 @@
     height: 60vh;
     overflow: auto;
 }
+.KreamProject_Carousel::-webkit-scrollbar {
+    width: 5px;
+}
+.KreamProject_Carousel::-webkit-scrollbar-thumb {
+    background-color: rgb(50, 50, 50);
+    border-radius: 15px;
+}
+.KreamProject_Carousel::-webkit-scrollbar-track {
+    background: #aaa;
+}
 .KreamProjectImage-Show{
     width:97%;
     margin:0 auto;
@@ -138,4 +148,11 @@
 .btn2:hover {
     transform: translateY(-5px);
     transition: all .15s ease;
+}
+.git_Kream{
+    color: #004EA2;
+}
+.git_Kream:hover {
+    color: #004EA2;
+    text-decoration: underline;
 }

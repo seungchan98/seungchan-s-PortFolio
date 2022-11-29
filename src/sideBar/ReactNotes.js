@@ -17,6 +17,7 @@ const ReactNotes = () => {
     const toggleSideBar = () => {
         setVisible(visible => !visible);//on,off 개념 boolean
     }
+
     const NodejsUrl = 'https://nodejs.org/ko/';
     const YarnUrl = 'https://classic.yarnpkg.com/en/docs/install';
     const vsCodeUrl = 'https://code.visualstudio.com/';
@@ -134,7 +135,7 @@ const ReactNotes = () => {
                         &emsp;&emsp;리액트에서 특정 요소의 크기를 가져온다거나, 포커스를 설정해야한다거나 특정 DOM을 선택해야할 경우 useRef함수를 사용한다.<br/>
                         </p>
 
-                        <p>📌 <i style={{fontWeight:'bold', fontSize:'20px'}}>useReducer</i><br/>
+                        <p>📌 <i style={{fontWeight:'bold', fontSize:'20px'}}>useReducer -&gt;<button style={{color:'#004EA2', borderBottom:'1px solid #004EA2', fontSize:'15px'}} onClick={modalOpen}>useReducer 샘플 코드 qhrl</button></i><br/>
                         &emsp;- useReducer는 한컴포넌트 내에서 State를 업데이트하는 로직 부분을 그 컨포넌트로부터 분리시키는 기능을 해준다. 그렇기때문에 useReducer는 State 업데이트 로직을<br/>
                         &emsp;&emsp;분리하여 컴포넌트의 외부에 작성하는 것을 가능하게 함으로써, 코드의 최적화를 이루게 해준다.<br/>
                         &emsp;💡 useReducer VS useState<br/>
@@ -145,7 +146,7 @@ const ReactNotes = () => {
                         &emsp;&emsp;&emsp;○ 관리해야 할 State가 1개 이상, 복수일 경우<br/>
                         &emsp;&emsp;&emsp;○ 혹은 현재는 단일 State 값만 관리하지만, 추후 유동적일 가능성이 있는 경우<br/>
                         &emsp;&emsp;&emsp;○ State의 구조가 복잡해질 것으로 보이는 경우<br/>
-                        &emsp;<button style={{color:'#004EA2', borderBottom:'1px solid #004EA2'}} onClick={modalOpen}>useReducer 기본 코드 구조 및 샘플 코드</button>
+                        &emsp;
                         <br/>
                         </p>
                             {

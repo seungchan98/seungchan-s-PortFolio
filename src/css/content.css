@@ -109,6 +109,7 @@
     color:white;
     font-size: 50px;
     font-weight: 500;
+    animation: flash .5s ease-out alternate infinite;
   } 
   
   @keyframes cursor {
@@ -120,108 +121,53 @@
     font-size:30px;
     font-weight: 300;
   }
-
-  /* .profile-card-social{
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.profile-card-social a {
-    display: inline-flex;
-    width: 55px;
-    height: 55px;
-    margin: 15px;
-    border-radius: 40%;
-    align-items: center;
-    justify-content: center;
-    color: white;
+  .MainContent-SubTitle span{
     position: relative;
-    flex-shrink: 0;
-    transition: all .2s; */
-
-    /* @media screen and (max-width: 768px) {
-        .profile-card-social a {
-            width: 50px;
-            height: 50px;
-            margin: 10px;
-        }
-    }
-     @media screen and (min-width: 768px) {
-        .profile-card-social:hover{
-            transform: scale(1.2) translateY(-5px);
-        }
-    }  */
-/* }
-.profile-card-social a:hover {
-    transform: scale(1.2) translateY(-5px);
-}
-.profile-card-social .facebook {
-    background: linear-gradient(45deg, #3b5998, #0078d7);
-    box-shadow: 0 4px 30px rgb(43, 98, 169, 0.5);
-}
-
-.profile-card-social .twitter {
-    background: linear-gradient(45deg, #1da1f2, #0371c8);
-    box-shadow: 0 4px 30px rgb(19, 127, 212, 0.7);
-}
-.profile-card-social .instagram{
-    background: linear-gradient(45deg, #405de6, #5851db, #833ab5, #c13584, #e1306c, #fd1d1d);
-    box-shadow: 0 4px 30px rgb(120, 64, 190, 0.6);
-}
-.profile-card-social .behance {
-    background: linear-gradient(45deg, #1769ff, #213fca);
-    box-shadow: 0 4px 30px rgb(27, 86, 231, 0.7);
-}
-.profile-card-social .github {
-    background: linear-gradient(45deg, #333333, #626b73);
-    box-shadow: 0 4px 30px rgb(63, 65, 67, 0.6);
-}
-.profile-card-actions {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-
-    @media screen and (max-width: 576px) {
-        flex-direction: column;
-        gap: 1.5rem;
+    -webkit-font-smoothing: antialiased;
+  top: 20px;
+  display: inline-block;
+  animation: bounce .3s ease infinite alternate;
+  /* font-family: 'Titan One', cursive; */
+  font-size: 50px;
+  font-weight: bold;
+  color: #FFF;
+  /* text-shadow: 0 1px 0 #CCC,
+               0 2px 0 #CCC,
+               0 3px 0 #CCC,
+               0 4px 0 #CCC,
+               0 5px 0 #CCC,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .4); */
+  }
+  .MainContent-SubTitle span:nth-child(2){ animation-delay: .1s; }
+  .MainContent-SubTitle span:nth-child(3){ animation-delay: .2s; }
+  .MainContent-SubTitle span:nth-child(4){ animation-delay: .3s; }
+  .MainContent-SubTitle span:nth-child(5){ animation-delay: .4s; }
+  .MainContent-SubTitle span:nth-child(6){ animation-delay: .5s; }
+  .MainContent-SubTitle span:nth-child(7){ animation-delay: .6s; }
+  .MainContent-SubTitle span:nth-child(8){ animation-delay: .7s; }
+  .MainContent-SubTitle span:nth-child(9){ animation-delay: .8s; }
+  .MainContent-SubTitle span:nth-child(10){ animation-delay: .9s; }
+  .MainContent-SubTitle span:nth-child(11){ animation-delay: .10s; }
+  .MainContent-SubTitle span:nth-child(12){ animation-delay: .11s; } 
+   @keyframes bounce {
+    100% {
+      top: -10px;
+      text-shadow: 0 1px 0 #CCC,
+                   0 2px 0 #CCC,
+                   0 3px 0 #CCC,
+                   0 4px 0 #CCC,
+                   0 5px 0 #CCC,
+                   0 6px 0 #CCC,
+                   0 7px 0 #CCC,
+                   0 8px 0 #CCC,
+                   0 9px 0 #CCC,
+                   0 50px 25px rgba(0, 0, 0, .2);
+  
     }
 }
-.profile-card-actions button {
-    font-weight: bold;
-    font-size: 22px;
-    padding: 15px 0;
-    min-width: 250px;
-    border-radius: 50px;
-    color: white;
-    text-align: center;
-    cursor: pointer;
-    transition: all .2s;
-
-    @media screen and (max-width: 768px) {
-        min-width: 170px;
-    }
-
-    @media screen and (max-width: 576px) {
-        min-width: inherit;
-        width: 100%;
-        max-width: 350px;
-    }
-    @media screen and (min-width: 576px) {
-        .profile-card-actions:hover{
-            transform: translateY(-5px);
-        }
-    }
-}
-.profile-card-actions button:hover {
-    transform: translateY(-6px);
-}
-.profile-card-actions .blue {
-    background: linear-gradient(45deg, #1da1f2, #0e71c8);
-    box-shadow: 0 4px 30px rgb(19, 127, 212, 0.4);
-}
-.profile-card-actions .blue:hover{
-    box-shadow: 0 7px 30px rgba(19, 127, 212, 0.4);
-} */
+  
+ 

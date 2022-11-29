@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import Header from '../main/Header';
 import SideBarUl from './SideBarUl';
 import '../css/studyNotes.css';

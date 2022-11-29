@@ -102,7 +102,16 @@
     /* margin-right: 10px; */
     height: 60vh;
     overflow: auto;
-    
+}
+.Project_Carousel::-webkit-scrollbar {
+    width: 5px;
+}
+.Project_Carousel::-webkit-scrollbar-thumb{
+    background-color: rgb(50, 50, 50);
+    border-radius: 15px;
+}
+.Project_Carousel::-webkit-scrollbar-track{
+    background: #aaa;
 }
 .ProjectImage-Show{
     width:97%;

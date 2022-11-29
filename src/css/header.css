@@ -11,23 +11,20 @@
     z-index: 99;
     padding: 0px 20px;
     backdrop-filter: blur(10px);
+    transition: .3s ease;
 }
-.Header_Change {
-    /* position: fixed; */
-    /* top: 0px; */
-    /* left: 0px; */
-    /* right: 0px; */
-    /* height: 80px; */
-    /* background: #20202380; */
-    /* border-bottom: 1px solid rgb(56, 56, 56); */
-    /* z-index: 99; */
-    /* padding: 0px 20px; */
-    /* backdrop-filter: blur(10px); */
-    /* display: none; */
-    /* transform: rotateY(-80px); */
-    display: none;
-    /* position: fixed; */
+.Header_Change  {
+    transition: .5s ease;
+
 }
+/* @keyframes fadein {
+    from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+} */
 .HeaderSub{
     position: relative;
     max-width: 100%;
@@ -130,3 +127,32 @@
 .HeaderLink{
     text-decoration: none;
 }
+.Header-Myname span {
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+  top: 2px;
+  animation: bounce .4s ease infinite alternate;
+  font-family: 'Anton', sans-serif;
+}
+.Header-Myname span:nth-child(2){ animation-delay: .1s; }
+.Header-Myname span:nth-child(3){ animation-delay: .2s; }
+.Header-Myname span:nth-child(4){ animation-delay: .3s; }
+.Header-Myname span:nth-child(5){ animation-delay: .4s; }
+.Header-Myname span:nth-child(6){ animation-delay: .5s; }
+.Header-Myname span:nth-child(7){ animation-delay: .6s; }
+.Header-Myname span:nth-child(8){ animation-delay: .7s; }
+@keyframes bounce {
+    100% {
+      top: 3px; 
+       /* text-shadow: 0 1px 0 #CCC,
+                   0 2px 0 #CCC,
+                   0 3px 0 #CCC,
+                   0 4px 0 #CCC,
+                   0 5px 0 #CCC,
+                   0 6px 0 #CCC,
+                   0 7px 0 #CCC,
+                   0 8px 0 #CCC,
+                   0 9px 0 #CCC,
+                   0 50px 25px rgba(0, 0, 0, .2); */
+    }
+  }

@@ -23,6 +23,7 @@ const KreamProject = () => {
     //slide의 개수를 구할려면 slide.length로 바로사용
     // var slideCount = document.getElementsByClassName('KreamProject_Carousel').length;
     var currentIdx = 0;
+    const git_Kream = 'https://github.com/seungchan98/TeamProject_BitCamp'
 
     const page = (num) => {
         document.querySelector('.KreamProject_Image_Carousel').style.left = -num * 490 + 'px';
@@ -116,7 +117,6 @@ const KreamProject = () => {
                                         - selectBuySize(신발사이즈체크) UI 구현.<br/>
                                         - buyCheck(구매동의) UI 구현.<br/>
                                         - enterButPrice(가격입력) UI 구현.<br/>
-                                        -
                                     </div>
                                 </div>
                                 <div className='KreamProject_Inner_descriptions'>
@@ -141,6 +141,22 @@ const KreamProject = () => {
                                     </div>
                                     <div className='KreamProject_Value'>
                                         Oracle(Sqldeveloper)
+                                    </div>
+                                </div>
+                                <div className='KreamProject_Inner_descriptions'>
+                                    <div className='KreamProject_Label'>
+                                        배포여부
+                                    </div>
+                                    <div className='KreamProject_Value'>
+                                        X
+                                    </div>
+                                </div>
+                                <div className='KreamProject_Inner_descriptions'>
+                                    <div className='KreamProject_Label'>
+                                        Git
+                                    </div>
+                                    <div className='KreamProject_Value'>
+                                    <button className='git_Kream' onClick={() => {window.open(git_Kream)}}>GitHub</button>
                                     </div>
                                 </div>
                             </div>
