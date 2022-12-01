@@ -96,7 +96,7 @@ function Ability() {
                     <ul className='aboutMeUlTagSub'>
                         <li className='aboutMeLiTage'>
                             <span className='aboutMeSpanTag'>2022</span>
-                            비트캠프 강남센터 / 2022.04 ~ 2022.08
+                            비트캠프 강남센터 / AWS 활용 JAVA 웹 개발자 양성 과정
                             <span className='aboutMeSpanTag'>2022</span>
                         </li>
                     </ul>

@@ -156,3 +156,10 @@
     color:#004EA2;
     text-decoration: underline;
 }
+.linkGo{
+    color: #004EA2;
+}
+.linkGo:hover {
+    color: #004EA2;
+    text-decoration: underline;
+}
