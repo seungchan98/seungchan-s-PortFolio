@@ -124,7 +124,7 @@ const KreamProject = () => {
                                      Frontend
                                     </div>
                                     <div className='KreamProject_Value'>
-                                        HTML, CSS, JavaScript
+                                        HTML, CSS, JavaScript, jQuery, JSP
                                     </div>
                                 </div>
                                 <div className='KreamProject_Inner_descriptions'>

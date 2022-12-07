@@ -169,18 +169,23 @@ function Ability() {
                         </li>
                         <li className='aboutMeLiTage'>
                             <span className='aboutMeSpanTag'>5</span>
-                            React
+                            JSP
                             <span className='aboutMeSpanTag'>5</span>
                         </li>
                         <li className='aboutMeLiTage'>
                             <span className='aboutMeSpanTag'>6</span>
-                            Spring(Java)
+                            React
                             <span className='aboutMeSpanTag'>6</span>
                         </li>
                         <li className='aboutMeLiTage'>
                             <span className='aboutMeSpanTag'>7</span>
-                            Spring Boot(Java)
+                            Spring (Java)
                             <span className='aboutMeSpanTag'>7</span>
+                        </li>
+                        <li className='aboutMeLiTage'>
+                            <span className='aboutMeSpanTag'>8</span>
+                            Spring Boot(Java)
+                            <span className='aboutMeSpanTag'>8</span>
                         </li>
                     </ul>
                 <span className='aboutMeSpanTag'>Development</span>

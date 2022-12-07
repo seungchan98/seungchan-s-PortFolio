@@ -16,7 +16,7 @@ const PortFolioProject = () => {
     // var [currentIdx, setCurrentIdx] = useState(0);
     var currentIdx = 0;
     const git_PortFolio = 'https://github.com/seungchan98/seungchan-s-PortFolio';
-    const portFolio_Netlify = 'https://lscpf.netlify.app/'
+    const portFolio_Netlify = 'https://lscpofol.netlify.app/'
     const page = (num) => {
         document.querySelector('.PortFolioProject_Image_Carousel').style.left = -num * 490 + 'px';
         currentIdx = num;//현재패이지가 누른페이지인지 알려주는것
@@ -108,7 +108,7 @@ const PortFolioProject = () => {
                                         배포 링크
                                     </div>
                                     <div className='PortFolioProject_Value'>
-                                        <button className='linkGo' onClick={() => {window.open(portFolio_Netlify)}}>https://lscpf.netlify.app/</button>
+                                        <button className='linkGo' onClick={() => {window.open(portFolio_Netlify)}}>https://lscpofol.netlify.app/</button>
                                     </div>
                                 </div>
                                 <div className='PortFolioProject_Inner_descriptions'>
