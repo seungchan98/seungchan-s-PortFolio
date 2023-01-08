@@ -15,7 +15,7 @@
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4",
-    "homepage": "http://seungchan98.github.io/portfolio"
+    "homepage": "http://seungchan98.github.io/seungchan-s-PortFolio"
   },
   "scripts": {
     "start": "react-scripts start",
