@@ -25,7 +25,7 @@ import PortFolioProject from './ProjectPage/PortFolioProject';
 import UseReducerModal from './sideBar/UseReducerModal';
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path='/'/>
         {/* <Route path="/" index element={<Main/>}/> */}
