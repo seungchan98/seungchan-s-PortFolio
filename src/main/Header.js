@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react';
 import '../css/header.css';
 import { Link, NavLink } from 'react-router-dom';
 import Seungchan from '../image/dltmdcks.jpg';
-import sun from '../image/sun.png';
-import moon from '../image/moon.png';
+
 const Header = () => {
     const [scrollPosition, setScrollPosition] = useState(0);
     const updateScroll = () => {
@@ -12,7 +11,7 @@ const Header = () => {
     useEffect(() => {
         console.log(scrollPosition);
         window.addEventListener('scroll', updateScroll);
-    }, [])
+    }, [scrollPosition])
 
     return (
         <div className={scrollPosition < 50 ? 'Header' : 'Header_Change'}> {/*스크롤이 숫자px 이상일때 변환되도록*/}

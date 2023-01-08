@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import '../css/KreamProject.css';
 import Kream_shopDetailPage from '../image/Kream_shopDetailPage.png';
 import Kream_buyCheck from '../image/Kream_buyCheck.png';

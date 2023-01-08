@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import '../css/MBTIProject.css';
 import MBTI_loginMainPage from '../image/MBTI_loginMainPage.jpeg';
 import MBTI_AboutChar from '../image/MBTI_AboutChar.jpeg';

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import '../css/PortFolioProject.css';
 import Portfolio_MainPage from '../image/Portfolio_MainPage.png';
 import Portfolio_aboutMe from '../image/Portfolio_aboutMe.png';

@@ -1,4 +1,4 @@
-import Reactn from 'react';
+import React from 'react';
 import Header from '../main/Header';
 import MBTIProject from './MBTIProject';
 import KreamProject from './KreamProject';

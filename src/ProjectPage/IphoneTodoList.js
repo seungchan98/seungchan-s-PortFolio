@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../css/iphoneTodoList.css';
 import IphoneTodoListMain from '../image/IphoneTodoList.png';
 import IphoneTodoListli from '../image/IphoneTodoList2.png';
