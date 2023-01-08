@@ -113,7 +113,7 @@ const KreamProject = () => {
                                     <div className='KreamProject_Value'>
                                         - 메인페이지 Footer UI 구현.<br/>
                                         - 찜하기 기능 구현.<br/>
-                                        - 관심상품 나열 기능 구현.<br/>
+                                        - 찜한 상품을 관심상품페이지에 나열 기능 구현.<br/>
                                         - selectBuySize(신발사이즈체크) UI 구현.<br/>
                                         - buyCheck(구매동의) UI 구현.<br/>
                                         - enterButPrice(가격입력) UI 구현.<br/>
