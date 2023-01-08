@@ -12,7 +12,7 @@ const IphoneTodoList = () => {
     // var slideCount = document.getElementsByClassName('KreamProject_Carousel').length;
     var currentIdx = 0;
     const git_iphoneTodoList = 'https://github.com/seungchan98/Iphone_TodoList';
-    const iphoneTodoList_Netlify = 'https://iphonetodolist.netlify.app/';
+    const iphoneTodoList_Vercel = 'https://iphonetodolist.vercel.app/';
     const page = (num) => {
         document.querySelector('.IphoneTodoList_Image_Carousel').style.left = -num * 490 + 'px';
         currentIdx = num;//현재패이지가 누른페이지인지 알려주는것
@@ -103,7 +103,7 @@ const IphoneTodoList = () => {
                                     배포링크
                                     </div>
                                     <div className='IphoneTodoList_Value'>
-                                        <button className='linkGo' onClick={() => {window.open(iphoneTodoList_Netlify)}}>https://iphonetodolist.netlify.app/</button>
+                                        <button className='linkGo' onClick={() => {window.open(iphoneTodoList_Vercel)}}>https://iphonetodolist.vercel.app</button>
                                     </div>
                                 </div>
                                 
