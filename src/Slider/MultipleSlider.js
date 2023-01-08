@@ -1,7 +1,6 @@
 import React, {useState, useReducer} from 'react';
 import '../css/multipleSlider.css';
 import sun from '../image/sun.png';
-import moon from '../image/moon.png';
 const reducer = (state, action) => {
     switch(action.type) {
         case 'decrement':
@@ -61,10 +60,6 @@ const MultipleSlider = () => {
             <div className='day'>
                 <img src={sun} alt='sun'/>
             </div>
-            <div className='night'>
-                <img src={moon} alt='moon'/>
-            </div>
-            
         </div>
         </>
     );
